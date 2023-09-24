@@ -31,13 +31,13 @@ def do_math(num1, operation, num2):
         result = num1 * num2
     elif operation == 'div':
         if num2 == 0:
-            return "Error: Division by zero"
+            return "There is an error"
         result = num1 / num2
     elif operation == '%':
         if num2 == 0:
-            return "Error: Modulo by zero"
+            return "There is an error"
         result = num1 % num2
     else:
-        return "Invalid operation"
+        return "Not a valid operation"
 
     return str(result)
